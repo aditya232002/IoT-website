@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./images/demo.jpg');
+      background-size: cover;
+    }
+    
+    .menu {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .menu ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    .menu li {
+      margin: 0 10px;
+    }
+    
+    .menu a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+    
+    .menu a:hover {
+      background-color: #555;
+    }
+    
+    .right-nav {
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      max-width: 1200px;
+      margin: auto;
+    }
+    
+    .right-nav ul {
+      float: right;
+      list-style-type: none;
+      margin-top: 20px;
+    }
+    
+    .right-nav ul li {
+      display: inline-block;
+    }
+    
+    .right-nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border: 1px solid transparent;
+      transition: 0.6s ease;
+    }
+    
+    .right-nav ul li a:hover {
+      background-color: #ffffff;
+      color: black;
+    }
+    .center{
+            text-align: center;
+      }
+    
+    /* Additional Styles */
+    
+    h2 {
+      font-size: 24px;
+      color: #24ddd0;
+      margin: 20px 0;
+    }
+    
+    p {
+      font-size: 16px;
+      color: #ffffff;
+      line-height: 1.5;
+    }
+    
+    section {
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.273);
+      margin: 20px;
+      border-radius: 5px;
+    }
+  
+    
+    /* Animations */
+    
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    section {
+      animation: fadeIn 1s ease;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="right-nav">
+      <ul>
+        <li><a class="nav-links" href="index.html">Home</a></li>
+        <li><a class="nav-links" href="about.html">About</a></li>
+        <li><a class="nav-links" href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <section id="iot-introduction">
+    <h2><a href="Intro.html">IoT Introduction</a></h2>
+    <p>This section provides an introduction to IoT.</p>
+  </section>
+  
+  <section id="iot-platforms">
+    <h2><a href="platform.html">IoT Platforms</a></h2>
+    <p>This section covers different IoT platforms.</p>
+  </section>
+  
+  <section id="iot-service-provider">
+    <h2><a href="services.html">IoT Service Provider</a></h2>
+    <p>This section discusses IoT service providers.</p>
+  </section>
+  
+  <section id="iot-branches">
+    <h2><a href="Branches.html">IoT Branches</a></h2>
+    <p>This section explores various branches of IoT.</p>
+  </section>
+  <footer>
+    <div class="center">
+        Copyright &copy; @Aditya Marathe.
+    </div>
+</footer>
+</body>
+</html>
